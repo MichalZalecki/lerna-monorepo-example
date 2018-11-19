@@ -1,0 +1,23 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.4.3',
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   pkg: '@yourproject/common' }
+1 notice cli v3.4.3
+2 verbose rootPath /Users/michalzalecki/webdev/lerna-monorepo-example
+3 error TypeError: Invalid Version: [object Object]
+3 error     at new SemVer (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:296:11)
+3 error     at compare (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:585:10)
+3 error     at lt (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:619:10)
+3 error     at cmp (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:660:21)
+3 error     at Comparator.intersects (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:759:5)
+3 error     at /Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:874:33
+3 error     at Array.every (<anonymous>)
+3 error     at /Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:873:33
+3 error     at Array.some (<anonymous>)
+3 error     at /Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:872:24
+3 error     at Array.every (<anonymous>)
+3 error     at /Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:871:28
+3 error     at Array.some (<anonymous>)
+3 error     at Range.intersects (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:870:19)
+3 error     at Function.intersects (/Users/michalzalecki/webdev/lerna-monorepo-example/node_modules/semver/semver.js:1335:13)
